@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>궤적</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/font.css">
+	<script src="https://kit.fontawesome.com/756cc08a5a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<main>
+		<h1 id="title" class="">궤적</h1>
+		<div id="switch" class="box"></div>
+		<div id="profile" class="box">
+			<div id="profile-pic"></div>
+			<div id="profile-text">
+				<div id="profile-name">조진욱</div>
+				<div id="profile-position">신입 개발자</div>
+				<div id="profile-comment">믿고 맡길 수 있는<br>동료가 되겠습니다.</div>
+			</div>
+		</div>
+		<a href="https://github.com/Dev-Jinuk-Jo" target="_blank" id="btn-github" class="box"><img src="../src/github_w.svg" alt="GibHub"></a>
+		<div id="btn-story" class="box">
+			<div>어떻게 개발자의 길로 들어섰을까?</div>
+			<div>개발자가 되기 전의 이야기</div>
+		</div>
+		<a href="https://dev-jinuk-jo.notion.site/9a36aaada318497eaa95d21e27d52b66" target="_blank" id="btn-blog" class="box">
+			<img src="../src/blog-bg.jpg" alt="궤적">
+			<div>
+				<object data="../src/notion_b.svg" class="svg-black"></object>
+				<div>Notion Blog</div>
+			</div>
+			<h2>궤적</h2>
+			<p>더 많은 이야기가<br>블로그에 있습니다.</p>
+		</a>
+		
+		<div id="recent-project" class="box" data-path="trajectory.html">
+			<h2>최근 프로젝트</h2>
+			<img class="thumb" src="../src/trajectory/thumb.png" alt="궤적 썸네일">
+			<h3>포트폴리오 궤적</h3>
+			<p>포트폴리오 궤적은 나를 표현하고 지금까지의 프로젝트와 성과를 정리하기 위해 만든 반응형 웹 페이지입니다.</p>
+		</div>
+		
+		<div id="all-project" class="box">
+			<h2>전체 프로젝트</h2>
+			<div class="project-container">
+				<div data-path="glasses_house.html">
+					<div class="thumb"><img src="../src/glasses_house/안경집_001_메인화면.jpg" alt="안경집 썸네일"></div>
+					<div class="project-text">
+						<h3>안경집</h3>
+						<p>안경집은 자신에게 맞는 안경을 좀 더 쉽게 찾을 수 있도록 안경의 치수 정보를 제공하고 이를 조건으로 검색할 수 있게 만든 쇼핑몰입니다.</p>
+					</div>
+				</div>
+				<div data-path="yes_db.html">
+					<div class="thumb"><img src="../src/yes_db/001_main.jpeg" alt="YES DB 썸네일"></div>
+					<div class="project-text">
+						<h3>YES DB</h3>
+						<p>YES DB는 청소년수련관의 사업실적을 집계하고 각종 조건별로 통계를 보기 위해 만든 프로그램입니다.</p>
+					</div>
+				</div>
+				<div data-path="">
+					<div class="thumb"><img src="" alt=""></div>
+					<div class="project-text">
+						<h3>프로젝트 작성중</h3>
+						<p>작성중입니다.</p>
+					</div>
+				</div>
+				<div data-path="">
+					<div class="thumb"><img src="" alt=""></div>
+					<div class="project-text">
+						<h3>프로젝트 작성중</h3>
+						<p>작성중입니다.</p>
+					</div>
+				</div>
+				<div data-path="">
+					<div class="thumb"><img src="" alt=""></div>
+					<div class="project-text">
+						<h3>프로젝트 작성중</h3>
+						<p>작성중입니다.</p>
+					</div>
+				</div>
+			</div>
+			<div id="btn-more">
+				<i class="fas fa-caret-down"></i>
+			</div>
+		</div>
+		<div id="modal-bg" class="hidden">
+			<div id="modal" class="box">
+				<iframe id="iframe" src="/index"></iframe>
+			</div>
+		</div>
+	</main>
+	<script type="text/javascript" src="../js/script.js"></script>
+</body>
+</html>

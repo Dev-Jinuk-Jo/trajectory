@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'D2Coding';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/D2Coding.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&family=Noto+Sans+KR:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+h1, h2, h3, div, span, p, pre, li, a{
+    font-family: 'Roboto', 'Noto Sans KR', "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;
+
+    text-decoration: none;
+    word-spacing: 0.2em;
+    tab-size: 4;
+}
+
+pre > code {
+    font-family: 'D2Coding';
+    word-spacing: 0.2em;
+}
+
+pre > code > * {
+    font-family: 'D2Coding';
+    word-spacing: 0;
+}
+
+:root {
+
+    --box-color: rgba(255, 255, 255, 0.1);
+    --box-color-hover: rgba(255, 255, 255, 0.125);
+
+    --box-filter: blur(0.5rem) saturate(90%);
+    --box-filter-hover: blur(1.5rem) saturate(130%);
+
+    --font-color: rgba(255, 255, 255, 0.6);
+    --font-color-hover: rgba(255, 255, 255, 1);
+
+    --font-color-black: #202020;
+
+    --radius: 0.25rem;
+}
